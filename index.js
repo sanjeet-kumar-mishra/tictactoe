@@ -1,27 +1,3 @@
-// let player = "X";
-
-// const changePlayer = () => {
-//     return player === "X" ? "O" : "X";
-// }
-
-// const checkWin = () => {
-
-// }
-
-// let fulltable = document.getElementsByClassName("maintable");
-// Array.from(fulltable).forEach(item => {
-//     let data = item.querySelector(".tabledata");
-//     console.log(fulltable);
-//     item.addEventListener("click", ()=> {
-//         if(data.innerText === "") {
-//             data.innerText = player;
-//             player = changePlayer();
-//             checkWin();
-//             document.getElementsByClassName("turn")[0].innerText = "Turn for " + player;
-//         }
-//     })
-// })
-
 const cells = document.querySelectorAll("td");
 const winner = document.getElementById("winner");
 const message = document.getElementById("turn");
